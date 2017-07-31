@@ -7,11 +7,12 @@
   "bugs": {
     "url": "https://github.com/hideo55/node-kytea/issues"
   },
-  "keywords": ["Natural Language", "Text analyzer", "Word segmentation"],
+  "keywords": [
+    "Natural Language",
+    "Text analyzer",
+    "Word segmentation"
+  ],
   "author": "Hideaki Ohno <hide.o.j55@gmail.com>",
-  "dependencies": {
-    "nan": "2.0.5"
-  },
   "devDependencies": {
     "mocha": "~2.3.0"
   },
@@ -21,5 +22,8 @@
   "scripts": {
     "test": "mocha -R spec test/test.js"
   },
-  "license" : "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.6.2"
+  }
 }
