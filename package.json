@@ -13,9 +13,6 @@
     "Word segmentation"
   ],
   "author": "Hideaki Ohno <hide.o.j55@gmail.com>",
-  "devDependencies": {
-    "mocha": "~2.3.0"
-  },
   "engines": {
     "node": ">=0.8.0"
   },
@@ -25,5 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "nan": "^2.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
   }
 }
