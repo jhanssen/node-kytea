@@ -8,7 +8,7 @@
       'cflags_cc': ['-fexceptions'],
       'cflags!': ['-fno-exceptions', '-fno-rtti'],
       'cflags_cc!': ['-fno-exception', '-fno-rtti'],
-      'libraries': ["<!(pkg-config --libs kytea)"],
+      'libraries': ["<!(pkg-config --libs kytea)", "<!(pkg-config --libs-only-L kytea | sed s/^-L/-Wl,-rpath,/)"],
       'conditions': [
         ['OS=="mac"', {
             'xcode_settings': {
